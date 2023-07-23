@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto';
+    font-size: 400;
+    background-color: #ffffff;
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
