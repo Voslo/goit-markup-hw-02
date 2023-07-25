@@ -17,7 +17,7 @@ body {
     letter-spacing: 0.32px;
 }
 
-button {
+.list-button {
     cursor: pointer;
     color: var(--iris);
     background-color: var(--cloud);
@@ -27,8 +27,8 @@ button {
     letter-spacing: 0.64px;
 }
 
-button:hover,
-button:focus {
+.list-button:hover,
+.list-button:focus {
     color: var(--white);
     background-color: var(--ocean);
 }
@@ -110,7 +110,7 @@ ul {
     background-color: var(--ocean);
     cursor: pointer;
 }
-.work-list{
+.work-type{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
