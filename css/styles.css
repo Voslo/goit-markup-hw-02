@@ -79,6 +79,10 @@ h3{
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.link:focus,
+.link:hover{
+    color:var(--ocean)
+}
 .link-span{
     color: var(--navyblue);
 }
@@ -126,6 +130,7 @@ font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    font-family: 'Roboto',sans-serif;
 }
 /* Advant section */
 .advantages-text{
@@ -135,6 +140,13 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+.advantages-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--navyblue);
+}
 /* work section */
 .work{
     text-align: center;
@@ -143,15 +155,20 @@ font-style: normal;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: var(--navyblue);
 }
 /* Section team */
 .section-team{
 background-color: var(--cloud);
 }
+.team{
+    color: var(--navyblue);
+}
 .team-item{
     background-color: var(--white);
 }
 .team-human{
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -173,5 +190,8 @@ background-color: var(--cloud);
     color: var(--cloud);
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+.foot-span{
+    color: var(--cloud);
 }
 
