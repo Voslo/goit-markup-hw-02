@@ -1,0 +1,136 @@
+:root {
+    --slate: #434455;
+    --cloud: #F4F4FD;
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --white: #FFFFFF;
+    --ocean: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 400;
+    color: var(--slate);
+    background-color: var(--white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+button {
+    cursor: pointer;
+    color: var(--iris);
+    background-color: var(--cloud);
+}
+
+button:hover,
+button:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+ul {
+    list-style-type: none;
+}
+/* Logo */
+.link {
+    text-decoration: none;
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.link-span {
+    color: var(--navyblue);
+}
+
+.list {
+    list-style: none;
+}
+.link-studio {
+    text-decoration: none;
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.list-studio:focus,
+.list-studio:hover {
+    color: var(--ocean)
+}
+.link-address {
+    font-style: normal;
+}
+
+.contacts {
+    font-style: normal;
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.contacts:focus,
+.contacts:hover {
+    color: var(--ocean);
+}
+/* Hero section */
+.list-button {
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+.list-button:hover,
+.list-button:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+    cursor: pointer;
+}
+.work-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--navyblue);
+}
+.work-class{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--slate);
+}
+/* footer */
+.foot {
+    background-color: var(--navyblue);
+}
+
+.footer-text {
+    color: var(--cloud);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
+
+
+
+
+
+
