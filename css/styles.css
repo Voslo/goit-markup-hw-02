@@ -91,13 +91,14 @@ h3{
     list-style: none;
 }
 .list-studio{
+    text-decoration: underline;
     color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.link-studio{
+.link-portfolio{
     text-decoration: none;
     color: var(--navyblue);
     font-size: 16px;
@@ -113,15 +114,15 @@ h3{
 .link-address{
 font-style: normal;
 }
-.contacts{
+.link-contacts{
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.contacts:focus,
-.contacts:hover{
+.link-contacts:focus,
+.link-contacts:hover{
     color:var(--ocean);
     text-decoration: underline;
 }
