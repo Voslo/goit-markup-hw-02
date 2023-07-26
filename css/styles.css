@@ -13,7 +13,7 @@ body{
     background-color: var(--white);
     font-size: 16px;
     line-height: 1.5; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 button{
     cursor: pointer;
@@ -30,7 +30,7 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 a {
     text-decoration: none;
@@ -51,21 +51,21 @@ h1{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 h2{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 h3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02px;
 }
 /* Nav */
 /* Logo */
@@ -76,7 +76,7 @@ h3{
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .link:focus,
@@ -96,7 +96,14 @@ h3{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+}
+.link-studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
 }
 .link-portfolio{
     text-decoration: none;
@@ -104,7 +111,10 @@ h3{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+}
+.link-address{
+    font-style: normal;
 }
 .list-studio:focus,
 .list-studio:hover{
@@ -119,7 +129,7 @@ font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .link-contacts:focus,
 .link-contacts:hover{
@@ -136,7 +146,7 @@ font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     font-family: 'Roboto',sans-serif;
 }
 .list-button {
@@ -145,7 +155,7 @@ font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     font-family: 'Roboto',sans-serif;
 }
 
@@ -161,13 +171,13 @@ font-style: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .advantages-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     color: var(--navyblue);
 }
 /* work section */
@@ -176,7 +186,7 @@ font-style: normal;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navyblue);
 }
@@ -184,13 +194,13 @@ font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     color: var(--navyblue);
 }
 .work-class{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--slate);
 }
 /* Section team */
@@ -208,14 +218,14 @@ background-color: var(--cloud);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 .team-text{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--slate);
 }
 /* footer */
@@ -225,7 +235,7 @@ background-color: var(--cloud);
 .footer-text {
     color: var(--cloud);
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 .foot-span{
     color: var(--cloud);
