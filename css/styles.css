@@ -123,6 +123,7 @@ font-style: normal;
 .contacts:focus,
 .contacts:hover{
     color:var(--ocean);
+    text-decoration: underline;
 }
 /* Hero section */
 .hero {
@@ -181,7 +182,7 @@ font-style: normal;
 .work-type{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.4px;
     color: var(--navyblue);
 }
