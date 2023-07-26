@@ -46,6 +46,7 @@ h2{
     text-transform: capitalize;
 }
 h3{
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -66,7 +67,7 @@ h3{
 .link:focus,
 .link:hover{
     color:var(--ocean);
-    text-decoration: underline;
+
 }
 .link-span{
     color: var(--navyblue);
@@ -75,7 +76,6 @@ h3{
     list-style: none;
 }
 .list-studio{
-    text-decoration: underline;
     color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
@@ -83,6 +83,8 @@ h3{
     letter-spacing: 0.02em;
 }
 .link-studio{
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -97,13 +99,16 @@ h3{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.link-portfolio:focus,
+.link-portfolio:hover {
+    color: var(--ocean);
+}
 .link-address{
     font-style: normal;
 }
 .list-studio:focus,
 .list-studio:hover{
     color:var(--ocean);
-    text-decoration: underline;
 }
 .link-address{
 font-style: normal;
@@ -120,7 +125,6 @@ font-style: normal;
 .link-contacts:focus,
 .link-contacts:hover{
     color:var(--ocean);
-    text-decoration: underline;
 }
 /* Hero section */
 .hero {
@@ -176,14 +180,21 @@ font-style: normal;
     text-transform: capitalize;
     color: var(--navyblue);
 }
+
 .work-type{
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
 }
+
 .work-class{
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+    font-weight:400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
