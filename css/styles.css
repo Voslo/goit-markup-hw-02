@@ -109,6 +109,8 @@ h3{
 font-style: normal;
 }
 .link-contacts{
+    font-family: 'Roboto',sans-serif;
+    text-transform: none;
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
