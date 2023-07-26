@@ -81,7 +81,8 @@ h3{
 }
 .link:focus,
 .link:hover{
-    color:var(--ocean)
+    color:var(--ocean);
+    text-decoration: underline;
 }
 .link-span{
     color: var(--navyblue);
@@ -106,7 +107,8 @@ h3{
 }
 .list-studio:focus,
 .list-studio:hover{
-    color:var(--ocean)
+    color:var(--ocean);
+    text-decoration: underline;
 }
 .link-address{
 font-style: normal;
@@ -114,6 +116,9 @@ font-style: normal;
 .contacts{
     color: var(--slate);
     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .contacts:focus,
 .contacts:hover{
@@ -131,6 +136,22 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.64px;
     font-family: 'Roboto',sans-serif;
+}
+.list-button {
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.list-button:hover,
+.list-button:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+    cursor: pointer;
 }
 /* Advant section */
 .advantages-text{
@@ -156,6 +177,19 @@ font-style: normal;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--navyblue);
+}
+.work-type{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    color: var(--navyblue);
+}
+.work-class{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--slate);
 }
 /* Section team */
 .section-team{
